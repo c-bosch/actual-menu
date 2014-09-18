@@ -1,0 +1,29 @@
+body {
+	background-color:#d8ede1;
+	margin:0 20px;
+}
+h1 {
+	font-family: "27thRPS-Regular";
+    font-size: 90px;
+    color: black;
+    text-shadow: 3px 3px 1px #c6fbea;
+}
+h2 {
+	font-family: "27thRPS-Regular";
+}
+p {
+	font-size: 15px;
+}
+.container {
+	background-color: white;
+	padding: 30px;
+	border: 2px solid;
+	border-color: white;
+    border-radius: 25px;
+}
+.jumbotron {
+	background-color: black;
+	border-color: black;
+	border: 2px solid;
+	border-radius: 25px;
+}
