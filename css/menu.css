@@ -6,7 +6,7 @@ h1 {
 	font-family: "27thRPS-Regular";
     font-size: 90px;
     color: black;
-    text-shadow: 3px 3px 1px #c6fbea;
+    text-shadow: 1px 1px 1px #7c7c7c;
 }
 h2 {
 	font-family: "27thRPS-Regular";
@@ -22,8 +22,9 @@ p {
     border-radius: 25px;
 }
 .jumbotron {
-	background-color: black;
-	border-color: black;
-	border: 2px solid;
+	background-color: white;
 	border-radius: 25px;
+}
+h2 {
+	margin-left: 10px;
 }
