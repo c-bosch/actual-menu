@@ -11,8 +11,9 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+    <div class="header">
   <h1>Visit Us!</h1>
-
+</div>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/menu.css">
 
@@ -25,6 +26,12 @@
     <style>
         @font-face { font-family: "27thRPS-Regular"; src: url("27thRPS-Regular.ttf"); }
         </style>
+     <style>
+a a:link  {color:white; background-color: #586160}
+a:visited {color:white; background-color: #586160}
+a:hover   {color:#a2e2d9; background-color:transparent}
+a:active  {color:#a2e2d9; background-color:transparent}
+</style>
   </head>
   <body>
       
@@ -44,12 +51,17 @@
           <h2>Call</h2> 
           <p>314-621-9650</p>
           <h2>Click</h2>
+          <div class="button">
             <a href="http://crowncandykitchen.net/html/">Our Website</a>
+          </div>
+          <br>
+          <br>
              
         </div><!-- /.col-lg-6 -->
     
-          <p><a class="btn btn-default" href="#" role="button"> <input type="button" value="back" onClick="window.location='file:///Users/christinebosch/GitHub/actual-menu/index.html' ">
-            <span class="glyphicon glyphicon-hand-left"></a></p>
+           <div class="button">
+        <a href="index.html">Back  <span class="glyphicon glyphicon-hand-left"></a>
+      </div>
 
   </body>
 </html>

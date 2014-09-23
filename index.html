@@ -48,6 +48,12 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+a a:link  {color:white; background-color: #586160}
+a:visited {color:white; background-color: #586160}
+a:hover   {color:#a2e2d9; background-color:transparent}
+a:active  {color:#a2e2d9; background-color:transparent}
+</style>
   </head>
 
   <body>
@@ -55,40 +61,91 @@
   
   
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
+
+      <div class="header">
         <h1>Crown Candy</h1>
         <p>A St. Louis Tradition Since 1913</p>
       </div>
-    </div>
+  
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+        	<div class="carousel-picture">
+          <img src="http://maggiemphoto.files.wordpress.com/2011/07/crown1.jpg" alt="First slide" style="width:900px; height:500px;">
+      </div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h2>Do You <u><strong>Really</strong></u> Love Malts?</h2>
+               <div class="caption-text"> <p>Our policy since 1913: anyone who can drink 5 malts in thirty minutes gets them Free!!!</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+        	<div class="carousel-picture">
+          <img src="http://crowncandykitchen.net/wp-content/gallery/crown-candy-kitchen-photo-gallery/CrownCandyJul11.18.jpg" style="width:900px; height:500px;">
+      </div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h2>Crown Candy Lunch Menue</h2>
+             <div class="caption-text"> <p>Whether you are craving a light and delicious turkey sandwich on wheat bread or a heart stopping pile of bacon on our BLT, Crown Candy has got you covered. </p></div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+        	<div class="carousel-picture">
+          <img src="http://www.beanermunky.com/confection/wp-content/uploads/2010/11/chocolate-close-up.jpg" alt="Third slide" style="width:900px; height:500px;">
+      </div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h2>We Do Candy Best!</h2>
+               <div class="caption-text"><p>Before leaving, make sure to grab something for a friend, loved one or office mate. All candy, desserts and souvenirs can be packaged for takeout. You’ll definitely be someone’s hero!</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
 
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
           <h2>Menu</h2>
-          <p>these are food items</p>
-          <p><a class="btn btn-default" href="#" role="button"> <input type="button" value="Lunch" onClick="window.location='file:///Users/christinebosch/GitHub/actual-menu/food.html' ">
-           <span class="glyphicon glyphicon-cutlery"></a></p>
-          <p><a class="btn btn-default" href="#" role="button"> <input type="button" value="Shakes & Malts" onClick="window.location='file:///Users/christinebosch/GitHub/actual-menu/drinks.html' ">
-            <span class="glyphicon glyphicon-glass"></a></p>  
-          <p><a class="btn btn-default" href="#" role="button"> <input type="button" value="Ice Cream" onClick="window.location='file:///Users/christinebosch/GitHub/actual-menu/ice cream.html' ">
-            <span class="glyphicon glyphicon-asterisk"></a></p>
-
+          <div class="button">
+          <a href="food.html">Lunch  <span class="glyphicon glyphicon-cutlery"></a>
+      </div>
+      <br>
+      <div class="button">
+         <a href="drinks.html">Shakes & Malts  <span class="glyphicon glyphicon-glass"></a>
+     </div>
+     <br>
+      <div class="button">
+          <a href="ice cream.html">Ice Cream  <span class="glyphicon glyphicon-asterisk"></a>
+            </div>
         </div>
+
         <div class="col-md-4"> 
           <h2>History</h2>
-          <p>story about something</p>
-          <p><a class="btn btn-default" href="#" role="button"><input type="button" value="Our Story" onClick="window.location='file:///Users/christinebosch/GitHub/actual-menu/story.html' ">
-          	<span class="glyphicon glyphicon-comment"></a></p>
+          <div class="button">
+          <a href="story.html">About Us   <span class="glyphicon glyphicon-comment"></a>
+      </div>
        </div>
         <div class="col-md-4">
           <h2>Location</h2>
-          <p>these are directions</p>
-          <p><a class="btn btn-default" href="#" role="button"><input type="button" value="Visit Us" onClick="window.location='file:///Users/christinebosch/GitHub/actual-menu/visit.html' ">
-          	<span class="glyphicon glyphicon-road"></a></p>
-          <p><a class="btn btn-default" href="#" role="button"><input type="button" value="Get Directions" onClick="window.location='https://www.google.com/maps/place/Crown+Candy+Kitchen/@38.65133,-90.197888,17z/data=!3m1!4b1!4m2!3m1!1s0x87d8b332e8cd2857:0xb2fbff578da9482f' ">
-          	<span class="glyphicon glyphicon-phone"></a></p>
+          <div class="button">
+          <a href="visit.html">Visit Us   <span class="glyphicon glyphicon-road"></a>
+      </div>
+      <br>
+      <div class="button">
+          <a href="https://www.google.com/maps/place/Crown+Candy+Kitchen/@38.65133,-90.197888,17z/data=!3m1!4b1!4m2!3m1!1s0x87d8b332e8cd2857:0xb2fbff578da9482f">Get Directions   <span class="glyphicon glyphicon-phone"></a>
+      </div>
         </div>
       </div>
      

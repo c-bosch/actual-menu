@@ -1,12 +1,18 @@
+.header {
+	color: white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
 body {
-	background-color:#d8ede1;
 	margin:0 20px;
+	background-color: black;
 }
 h1 {
 	font-family: "27thRPS-Regular";
     font-size: 90px;
-    color: black;
     text-shadow: 1px 1px 1px #7c7c7c;
+
 }
 h2 {
 	font-family: "27thRPS-Regular";
@@ -18,13 +24,74 @@ p {
 	background-color: white;
 	padding: 30px;
 	border: 2px solid;
-	border-color: white;
     border-radius: 25px;
+    border-color: white;
 }
-.jumbotron {
-	background-color: white;
-	border-radius: 25px;
-}
+
 h2 {
+font-family: "27thRPS-Regular";
 	margin-left: 10px;
 }
+.item {
+	size: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.carousel-caption {
+text-align: center;
+opacity: 0.6;
+background-color: black;
+border-radius: 10px;
+color:white;
+padding: 20px;
+}
+.carousel-picture {
+	text-align: center;
+}
+.caption-text {
+	color:white;
+	text-align: center;
+}
+.button {
+padding: 5px 5px 5px 5px;
+  background-color: #586160;
+  text-decoration:none;
+  width: 150px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 0px 0px #111414;
+  text-align: center;
+  height: 30px;
+
+}
+a:link {
+    background-color: #586160;
+}
+
+a:visited {
+    background-color: #586160;
+}
+
+a:hover {
+    background-color: #586160;
+}
+
+a:active {
+    background-color: #586160;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: bold;
+}
+
+a:active {
+    text-decoration: bold;
+}
+
+
