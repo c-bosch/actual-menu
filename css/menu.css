@@ -43,8 +43,7 @@ h1 {
 	font-family: "Belanusa";
     font-size: 40px;
     text-shadow: 1px 1px 1px #7c7c7c;
-    height: 50px;
-    background-color: transparent;
+ 
 
 }
 
@@ -58,6 +57,7 @@ h1 {
    
 
 }
+
 .container-index {
 	background-color: white;
 	padding: 30px;
