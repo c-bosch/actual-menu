@@ -20,7 +20,13 @@
         @font-face { font-family: "27thRPS-Regular"; src: url("27thRPS-Regular.ttf"); }
         @font-face { font-family: "Belanusa"; src: url("Belanusa.ttf");}
         @font-face { font-family: "LABTUWD_"; src: url("LABTUWD_.ttf");}
+
         </style>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="index.js"></script>
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
   </head>
 
 <!DOCTYPE html>
@@ -44,6 +50,11 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <script>
+  $(function() {
+    $( document ).tooltip();
+  });
+  </script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -53,9 +64,10 @@
     <style>
 a a:link  {color:white; background-color: #586160}
 a:visited {color:white; background-color: #586160}
-a:hover   {color:#a2e2d9; background-color:transparent}
+a:hover   {color:white; background-color:transparent;}
 a:active  {color:#a2e2d9; background-color:transparent}
 </style>
+
 
   </head>
 
@@ -64,19 +76,17 @@ a:active  {color:#a2e2d9; background-color:transparent}
   
   
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="crown-container">
+   
    
     <div class="header-left">
-    <p> Crown Candy Kitchen. 
-	
-	 <img src="https://d13yacurqjgara.cloudfront.net/users/59145/screenshots/1485687/vector_crown.jpg" style="width:30px; height:18px;">
-	1401 St. Louis Ave. St. Louis, MO 63106 
- <img src="https://d13yacurqjgara.cloudfront.net/users/59145/screenshots/1485687/vector_crown.jpg" style="width:30px; height:18px;">
- 314-621-9650</p>
+    <p> Crown Candy Kitchen. - 1401 St. Louis Ave. St. Louis, MO 63106 - 314-621-9650</p>
 </div>
 
-</div>
 
+<br>
+<div class="w-crown">
+<img src="w-crown.png" style="width: 70px; height: 60px;">
+</div>
 
 <div class="header-title-container">
       <div class="header-title">
@@ -138,35 +148,36 @@ a:active  {color:#a2e2d9; background-color:transparent}
     <div class="container-index">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <h2>Menu</h2>
-          <div class="button">
-          <a href="food.html">Lunch  <span class="glyphicon glyphicon-cutlery"></a>
+           <div id="lunch">
+          <a id="lunch"> <a href="food.html" class="btn">Lunch   <span class="glyphicon glyphicon-cutlery"></a>
       </div>
       <br>
-      <div class="button">
-         <a href="drinks.html">Shakes & Malts  <span class="glyphicon glyphicon-glass"></a>
+       <div id="drinks">
+         <a id="drinks"> <a href="drinks.html" class="btn">Shakes   <img src="milkshake_white.png" style="width:20px; height:20px;"></a>
      </div>
      <br>
-      <div class="button">
-          <a href="ice cream.html">Ice Cream  <span class="glyphicon glyphicon-asterisk"></a>
+       <div id="ice-cream">
+          <a href="ice cream.html" class="btn">Ice Cream  <img src="http://glyphs.bulb9.com/images/glyphs/icecream.png" style="width:20px; height:20px;"></a>
             </div>
         </div>
 
-        <div class="col-md-4"> 
+        <div class="col-sm-4"> 
           <h2>History</h2>
-          <div class="button">
-          <a href="story.html">About Us   <span class="glyphicon glyphicon-comment"></a>
+           <div id="story">
+          <a href="story.html" class="btn">Our Story   <span class="glyphicon glyphicon-comment"></a>
       </div>
        </div>
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <h2>Location</h2>
-          <div class="button">
-          <a href="visit.html">Visit Us   <span class="glyphicon glyphicon-road"></a>
+           <div id="visit">
+          <a href="visit.html" class="btn">Visit Us    <span class="glyphicon glyphicon-road"></a>
       </div>
       <br>
-      <div class="button">
-          <a href="https://www.google.com/maps/place/Crown+Candy+Kitchen/@38.65133,-90.197888,17z/data=!3m1!4b1!4m2!3m1!1s0x87d8b332e8cd2857:0xb2fbff578da9482f">Get Directions   <span class="glyphicon glyphicon-phone"></a>
+
+      <div id="directions">
+          <a href="https://www.google.com/maps/place/Crown+Candy+Kitchen/@38.65133,-90.197888,17z/data=!3m1!4b1!4m2!3m1!1s0x87d8b332e8cd2857:0xb2fbff578da9482f" class="btn"> Directions   <span class="glyphicon glyphicon-phone"></a>
       </div>
         </div>
       </div>
